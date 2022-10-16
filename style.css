@@ -1,0 +1,56 @@
+body  {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(90deg, #8BC6EC 0%, #525ae7 100%);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.content-kitten {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img-kitten {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+button {
+  background-color: #525ae7;
+  border: 0px solid #000;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #5482d0;
+  cursor:pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
